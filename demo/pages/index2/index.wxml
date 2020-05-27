@@ -1,0 +1,14 @@
+<!--pages/index2/index.wxml-->
+<!-- <text>pages/index2/index.wxml</text> -->
+<view>{{ message }}</view>
+<view>{{ name }}</view>
+<view>{{ person.name }} || {{ person.height }}</view>
+<view data-id="{{ title }}"></view>
+<view> <checkbox checked="{{ true }}"></checkbox> </view>
+<view> <checkbox checked="{{ false }}"></checkbox> </view>
+<view hiddlen="{{ true }}">hiddlen</view>
+<view wx:if="{{ false }}">hiddlen2</view>
+
+<view wx:for="{{ list }}" wx:key="index">
+  {{ index }} : {{ item }}
+</view>

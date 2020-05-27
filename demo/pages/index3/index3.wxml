@@ -1,0 +1,5 @@
+<view hover-class="h-class">auqa</view>
+<view>
+    <text selectable="{{ false }}">text 123</text>
+     <text decode="{{ true }}">text&nbsp;123</text>
+</view>

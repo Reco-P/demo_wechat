@@ -1,0 +1,8 @@
+<!-- navigate跳转，但是不能跳到tabbar页面，保留当前页面 -->
+<navigator url="../index5/index5" open-type="navigate">index5</navigator>
+<!-- redirect跳转，但是不能跳到tabbar页面，关闭当前页面 -->
+<navigator url="../index5/index5" open-type="redirect">index5</navigator>
+<!-- switchTab跳转，跳到tabbar页面，关闭非tabbar页面 -->
+<navigator url="../index/index" open-type="switchTab">index5</navigator>
+<!-- reLaunch跳转，跳转页面，关闭其他页面 -->
+<navigator url="../index5/index5" open-type="reLaunch">index5</navigator>

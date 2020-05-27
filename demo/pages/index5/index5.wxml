@@ -1,0 +1,7 @@
+<swiper autoplay indicator-dots indicator-color="aqua" circular>
+    <swiper-item> <image src="../images/1.jpg" mode="aspectFit"></image></swiper-item>
+    <swiper-item> <image src="../images/2.jpg" mode="aspectFit"></image></swiper-item>
+    <swiper-item> <image src="../images/3.jpg" mode="aspectFit"></image></swiper-item>
+    <swiper-item> <image src="../images/4.jpg" mode="aspectFit"></image></swiper-item>
+    <swiper-item> <image src="../images/5.jpg" mode="aspectFit"></image></swiper-item>
+</swiper>
